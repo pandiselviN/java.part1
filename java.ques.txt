@@ -1,0 +1,54 @@
+1.Main method  in java :
+    Java main method is the entry point of any java program.
+    Syntax:public static void main (String[] args).
+    we can change the name of string array argument (ie change args to myStringArgs)
+
+2.Control flow statements:
+    Switch statement
+    For loop
+    Do while loop
+    While loop
+
+3.Break:
+    The break statement is used to terminate the loop immediately.
+  Continue:
+    The continue statement is used to skip the current iteration of the loop.
+
+4.Array:
+   An array is a container object that holds a fixed number of values of a single type. 
+The syntax for declaring an array is :
+  datatype[]arrayName;
+Datatype: The type of objects that will be stored in the array.
+
+
+5.ArrayIndexOutOfBound:
+   The ArrayIndexOutOfBound exeception is thrown If a program tries to access an array index that is negative,greater than,or equal to the length of the array.
+
+6.The syntax for creating an object is :
+  ClassName object = new ClassName();
+  The object class refers to a class created to group various ojects which are instances of that class.
+naming conventions: 
+    class names should be nouns.
+    method and variable name should starts with lower case.
+    
+7.Variable:
+   A variable is a container to hold a data.It has a name ,value and a datatype.
+   To declare a variable,you will specify the datatype, leave at least one space ,then the name for the variable and end the line with a semicolon(;).
+
+8.String in java :
+  String is a sequence of different character followed by a null character.A set of character are enclosed with double quote.
+ Is its a data type:
+  yes, it is non primitive data type.
+
+9.Ways to create the string object in java :
+ Two ways:
+String literal: String name1="Hello";
+using new keyword:String name1=new string("Hello");
+
+10.
+  .Equals:
+       Equals is a method of object class.
+       method should be used for content comparison.
+   ==
+     Should be used during reference comparison.
+     check if both references points to same location or not.
